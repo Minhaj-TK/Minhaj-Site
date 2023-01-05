@@ -34,3 +34,14 @@ nav ul li a:hover::after{
     width: 100%;
 }
 
+@media (max-width: 767.98px) {
+    
+    body{
+        background-image: url(images/bg1.jpeg);
+        background-position: -240px;
+        height: 100vh;
+    }
+    nav ul li a:hover::after{
+        width: 10%;
+    }
+ }
